@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono";
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("../assets/fonts/RobotoMono-Regular.ttf");
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #283149;
+}
+
+.container .header {
+  margin-bottom: 150px;
+}
+
+.container .header h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.container .drum-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.container .drum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  padding-top: 100px;
+  border-radius: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: white;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border: 10px solid #404b69 !important;
+  outline: none;
+  cursor: pointer;
+}
+
+.container .w {
+  background-image: url("../assets/images/crash.png");
+}
+
+.container .a {
+  background-image: url("../assets/images/kick.png");
+}
+
+.container .s {
+  background-image: url("../assets/images/snare.png");
+}
+
+.container .d {
+  background-image: url("../assets/images/tom1.png");
+}
+
+.container .j {
+  background-image: url("../assets/images/tom2.png");
+}
+
+.container .k {
+  background-image: url("../assets/images/tom3.png");
+}
+
+.container .l {
+  background-image: url("../assets/images/tom4.png");
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+.pressed {
+  opacity: .6 !important;
+}
